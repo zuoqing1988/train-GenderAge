@@ -4,7 +4,7 @@ train-GenderAge
 
 **1.数据准备**
 
-从[此链接]()下载训练这个工程所需要的数据，解压到data文件夹里面
+从[此链接](https://pan.baidu.com/s/1s8amSxHYHQQzO4nkjBo9Ww)下载训练这个工程所需要的数据，解压到data文件夹里面
 
 解压之后的目录结构为
 
