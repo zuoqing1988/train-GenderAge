@@ -68,7 +68,7 @@ def GA_Net112(mode, batch_size, test=False):
     conv5 = Residual(conv45, num_block=2, num_out=base_dim*8, kernel=(3, 3), stride=(1, 1), pad=(1, 1), num_group=base_dim*8, name="res5")
     
 	# conv6 = 1x1
-    conv6 = Conv(conv5, num_filter=base_dim*8, num_group=base_dim*8, kernel=(7, 7), pad=(0, 0), stride=(1, 1), name="conv_6")
+    conv6 = Conv(conv5, num_filter=base_dim*8, num_group=base_dim*8, kernel=(7, 7), pad=(0, 0), stride=(1, 1), name="conv6")
     if mode == "gender_age":
         conv7 = mx.symbol.Convolution(data=conv6, kernel=(1, 1), num_filter=config.AGE*2+2, name="conv7")
     else:
